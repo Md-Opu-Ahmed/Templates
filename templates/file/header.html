@@ -1,0 +1,53 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Business Pro — Example</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <!-- Top thin info bar -->
+  {% comment %} <div class="topbar"> {% endcomment %}
+    {% comment %} <div class="container"> {% endcomment %}
+      {% comment %} <div class="top-left">Welcome to Business Pro Services, we have over 12 years of expertise.</div> {% endcomment %}
+      {% comment %} <div class="top-right"> {% endcomment %}
+        {% comment %} <span><i class="fa fa-phone"></i> (00) 568 459 867</span> {% endcomment %}
+        {% comment %} <span><i class="fa fa-envelope"></i> example@example.com</span> {% endcomment %}
+      {% comment %} </div> {% endcomment %}
+    {% comment %} </div> {% endcomment %}
+  {% comment %} </div> {% endcomment %}
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav">
+      <div class="logo">
+        <div class="logo-mark">BP</div>
+        <div class="logo-text">
+          <div class="brand">BUSINESS</div>
+          <div class="sub">PRO</div>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SERVICE</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">PAGE</a>
+        <a href="#">BLOG</a>
+        <a href="#">CONTACT</a>
+      </nav>
+
+      <a class="cta" href="#">PURCHASE NOW</a>
+    </div>
+  </header>
